@@ -5,8 +5,529 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #back{
+            width: 100%;
+            height: 650px;
+            background-color: green;
+            position: relative;
+            border-radius: 0px 0px 50% 50%/0px 0px 100% 100%;
+            overflow: hidden;
+            transform: scaleX(2.5);
+           
+
+        }
+        #first{
+            display: flex;
+            position: absolute;
+            top: 15%;
+            color: white;
+            font-size: 40px;
+            justify-content: space-evenly;
+        }
+        #one{
+            width: 65%;
+        }
+        #one img{
+            width: 100%;
+        }
+        #two{
+            width: 25%;
+            box-sizing: border-box;
+        }
+        #top{
+            width: 80%;
+        }
+        #item{
+            color: #fcea7f;
+            font-size: 30px;
+            margin-top: -15px;
+        }
+        #rating{
+            margin-top: -15px;
+            text-align: start;
+        }
+        #rating h3{
+            display: inline;
+        }
+        #rating p{
+            font-size: 25px;
+            display: inline;
+        }
+        
+        #star img{
+            width: 8%;
+        }
+        #play{
+            margin-top: 20px;
+        }
+        #play a img{
+            width: 40%;
+            height: 100px;
+        }
+        hr{
+            margin-top: 150px;
+            border:0.1px dashed gray;
+            opacity: 0.2;
+        }
+/* ------------------------------------------------------------------------IPHONE SECTION------------------------------------------- */
+
+        h1{
+            text-align: center;
+            color: #74b7e0;
+            font-weight: bold;
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #easy{
+            width: 100%;
+            height: 600px;
+            position: relative;
+        }
+        #awesome{
+            width: 30%;
+            height: 450px;
+            background-color: #74b7e0 ;
+            border-radius: 50%;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            line-height: 30px;
+            position: absolute;
+            top: 210%;
+            right: 40%;
+            z-index: -1;
+         }
+         #awesome ul{
+           padding-top: 100px;    
+           padding-left: 100px;
+         }
+         #iphone img{
+            width: 95%;
+            
+         }
+         #iphone{
+            position: absolute;
+            top: 135%;
+         }
+         #gold{
+            width: 30%;
+            height: 450px;
+            background-color: #90e43e ;
+            border-radius: 50%;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            line-height: 30px;
+            position: absolute;
+            top: 140%;
+            opacity: 0.98;
+         }
+         #gold ul{
+           padding-top: 100px;    
+           padding-left: 100px;
+         }
+         #track{
+            width: 30%;
+            height: 450px;
+            background-color: #f9b440  ;
+            border-radius: 50%;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            line-height: 30px;
+            position: absolute;
+            top: 125%;
+            right: 10%;
+            opacity: 0.98;
+         }
+         #track ul{
+           padding-top: 100px;    
+           padding-left: 100px;
+         }
+/* ----------------------------------------------------------------------AWARD  SECTION -------------------------------------------- */
+
+         #award{
+            width: 100%;
+            height: 300px;
+            margin-top: 500px;
+            background-color: #f5f1ee;
+            text-align: center;
+
+            /* border-radius: 50%;
+            transform-origin: bottom;
+            transform: translateX(-5%) scale(1.5); */
+            display: flex;
+            justify-content: space-evenly;
+         }
+         #award div{
+            margin-top: 30px;
+         }
+       .vertical{
+        height: 200px;
+        border: 0.1px dashed silver;
+       }
+       .inside_award{
+        width: 30%;
+       }
+       .inside_award h6{
+        font-size: 30px;
+        color:#74b7e0 ;
+        margin-top: 10px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       .inside_award p{
+        color: #6f809b ;
+        font-size: 27px;
+        margin-top: -38px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       /* -----------------------------FEATURES SECTION------------------------------------------------------ */
+
+       #key_features{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+       }
+       #key_features div{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 15%;
+        height: 250px;
+        text-align: center;
+        border-radius: 20px;
+        transition: 0.7s;
+       }
+       #key_features div:hover{
+        transform: scale(1.1);
+       }
+       #key_features div a img{
+        height: 150px;
+        margin-top: 20px;
+       }
+       #key_features div a p{
+        width: 70%;
+        margin-left: 15%;
+        color:  #15253e;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       #key_features div a{
+        text-decoration: none;
+       }
+       #popup{
+        background-color: #f5f1ee;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;        top: 320%;
+        left: 20%;
+        height: 80%;
+        width: 60%;
+        border-radius: 40px;
+        z-index: 10;
+        display: block;
+       }
+       #popup span{
+        position: absolute;
+        top: 0;
+        right: 20px;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+        z-index: 11;
+       }
+       #popup>div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+
+       }
+       #popup>div>div{
+        width: 40%;
+       }
+       #popup>div>div>img{
+        width: 70%;
+        margin-left: 100px;
+       }
+       #popup h3{
+        color: white;
+        text-align: center;
+       }
+       #popup:hover{
+        transform: scale(1.1);
+       }
+       #popup:hover~#key_features{
+        filter: blur(2px);
+        background: teal;
+       }
+       
+
+       /* -----------------------------------------------------apple watch------------------------------------------------------ */
+
+       #main{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: space-evenly;
+       }
+       #main>div{
+        width: 45%;
+        margin-top: 50px;
+       }
+       #app_pic{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+       }
+       #app_pic>div:nth-child(1){
+        width: 13%;
+        height: 90px;
+        background-color: #3c7f00;
+        border-radius: 50%;
+       }
+       #app_pic>div:nth-child(2){
+        width: 65%;
+        margin-left: -50px;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: start;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       .content{
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+
+       #apple_watch{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-evenly;
+       }
+       #apple_watch div{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        width: 20%;
+        height: 250px;
+        text-align: center;
+        border-radius: 20px;
+        transition: 0.7s;
+       }
+       #apple_watch div:hover{
+        transform: scale(1.1);
+       }
+       #apple_watch div a img{
+        height: 150px;
+        margin-top: 20px;
+       }
+       #apple_watch div a p{
+        width: 70%;
+        margin-left: 15%;
+        color:  #15253e;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       #apple_watch div a{
+        text-decoration: none;
+       }
+       
+    </style>
 </head>
 <body>
+    <div id="back"></div>
+    <div id="first">
+        <div id="one">
+            <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/feature-devices@1x-compressor.png" alt="">
+        </div>
+        <div id="two">
+            <div id="top"><h3>The Complete Diet Solution</h3></div>
+            <div id="item"><h6>For iPhone, iPad, Watch</h6></div>
+            <div id="rating">
+                <h3>4.8</h3><p> | Over 8,780 ratings & reviews</p>
+            </div>
+            <div id="star">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-w-shadow-5.png" alt="">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-w-shadow-5.png" alt="">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-w-shadow-5.png" alt="">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-w-shadow-5.png" alt="">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-w-shadow-5.png" alt="">
+            </div>
+            <div id="play">
+                <a href=""><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/app-store-badge-new.svg" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <h1>Easiest Food Logging and Health Tracking</h1>
+    <div id="easy"></div>
+    <div id="iphone"><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/app-features-iphone@2x.png" alt=""></div>
+    <div id="gold">
+            <ul>THE GOLD
+                STANDARD OF
+                FOOD DATABASES
+                <li>1,215,000 verified foods</li>
+                <li>Accurate and without duplicates</li>
+                <li>Up to 37 nutrients</li>
+                <li>Updated daily</li>
+            </ul>
+        </div>
+    <div id="track">
+        <ul>FASTEST
+            TRACKING
+            <li>Fewer steps than in any other app to log foods</li>
+            <li>Faster food logging saves you time every day</li>
+        </ul>
+    </div>
+    <div id="awesome">
+        <ul>AWESOME EVEN WITHOUT SUBSCRIPTIONS
+            <li>Provides for free more than any other diet app</li>
+            <li>No ads or promoted stories</li>
+        </ul>
+    </div>
+    <div id="award">
+        <div class="inside_award">
+            <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/features-awards-1@1x.png" alt="">
+            <h6>Mobile app</h6>
+            <p>Study published
+                in the American Journal of
+                preventive Medicine</p>
+        </div>
+        <div class="vertical"></div>
+        <div class="inside_award">
+            <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/features-medicine@1x.png" alt="">
+        </div>
+        <div class="vertical"></div>
+        <div class="inside_award">
+            <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-supported@1x.png" alt="">
+            <h6>Supported by</h6>
+            <p>a team of registered
+                Dietitians</p>
+        </div>
+    </div>
+    <h1>Key Features</h1>
+    <div id="key_features">
+        <div>
+            <a href="#award" onclick="toggle()">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/digital-coach@1x.png" alt="">
+                <p>DIGITAL COACH</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/diet-nutrients-insights@1x.png" alt="">
+            <p>DIET & NUTRIENTS
+                INSIGHTS</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/healthy-diet-planning@1x.png" alt="">
+            <p>HEALTHY DIET
+                PLANNING</p>
+            </a>
+        </div>
+        <div>
+           <a href="#">
+            <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/medication-diabetes@1x.png" alt="">
+            <p>MEDICATION &
+                DIABETES</p>
+           </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/beautiful-visual-design@1x.png" alt="">
+            <p>BEAUTIFUL
+                VISUAL DESIGN</p>
+            </a>
+        </div>
+    </div>
+    <div id="popup"><span id="cross">&times;</span>
+        <h3>Digital Coach</h3>
+        <div>
+            <div>
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/digital_coach_analysis.png" alt="">
+            </div>
+            <div>
+                <h3>Daily Analysis</h3>
+                <p>Visualizes current daily calorie deficit, estimates weight loss rate.</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="main">
+        <div>
+            <!-- append video here -->
+        </div>
+        <div id="apple_app">
+            <div id="app_pic">
+                <div>
+                    <img src="	https://s3.amazonaws.com/img.mynetdiary.com/images/mnd-apple@1x.png
+                    " alt="">
+                </div>
+                <div>Awesome App for
+                    Apple Watch</div>
+            </div>
+            <div class="content">Most comprehensive and easy - get
+                things done in couple of seconds</div>
+            <div class="content">There is no better watch diet app
+                than MyNetDiary</div>
+        </div>
+    </div>
+    
+
+    <div id="apple_watch">
+        <div>
+            <a href="#">
+                <img src="	https://s3.amazonaws.com/img.mynetdiary.com/images/log-foods-water@1x.png" alt="">
+            <p>LOG FOODS & WATER</p>
+            </a>
+        </div>
+        <div>
+            <a href="#">
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/track-nutrients@1x.png" alt="">
+            <p>TRACK NUTRIENTS</p>
+            </a>
+        </div>
+        <div>
+           <a href="#">
+            <img src="	https://s3.amazonaws.com/img.mynetdiary.com/images/use-advanced-complications@1x.png" alt="">
+            <p>OVER 20
+                COMPLICATION TYPES</p>
+           </a>
+        </div>
+        <div>
+           <a href="#">
+            <img src="	https://s3.amazonaws.com/img.mynetdiary.com/images/reminders-notifications@1x.png" alt="">
+            <p>REMINDERS &
+                NOTIFICATIONS</p>
+           </a>
+        </div>
+       
+    </div>
+    
+    
     
 </body>
 </html>
+<script>
+         function toggle(){
+            document.getElementById("popup").style.display="block";
+           
+            
+         };
+         document.getElementById("cross").addEventListener("click",function(){
+            document.getElementById("popup").style.display="none";
+         })
+         
+        
+</script>
