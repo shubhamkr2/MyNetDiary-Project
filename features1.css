@@ -1,0 +1,723 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+#back {
+    width: 60%;
+    max-width: 100%;
+    height: 650px;
+    background-color: green;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px 0px 50% 50%/0px 0px 5% 50%;
+    transform: scaleX(2.5);
+
+}
+#first {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    color: white;
+    font-size: 40px;
+    justify-content: space-evenly;
+}
+
+#one {
+    width: 65%;
+}
+
+#one img {
+    width: 100%;
+}
+
+#two {
+    width: 25%;
+    box-sizing: border-box;
+}
+
+#top {
+    width: 80%;
+}
+
+#item {
+    color: #fcea7f;
+    font-size: 30px;
+    margin-top: -15px;
+}
+
+#rating {
+    margin-top: -15px;
+    text-align: start;
+}
+
+#rating h3 {
+    display: inline;
+}
+
+#rating p {
+    font-size: 25px;
+    display: inline;
+}
+
+#star img {
+    width: 8%;
+}
+
+#play {
+    margin-top: 20px;
+}
+
+#play a img {
+    width: 60%;
+    height: 100px;
+}
+
+#bigb {
+    position: absolute;
+    top: 47%;
+    right: 30px;
+}
+
+#smallb {
+    position: absolute;
+    top: 6%;
+    left: 58%;
+}
+
+#smallb img {
+    width: 70px;
+}
+
+hr {
+    margin-top: 150px;
+    border: 0.1px dashed gray;
+    opacity: 0.2;
+}
+
+/* ------------------------------------------------------------------------IPHONE SECTION------------------------------------------- */
+
+h1 {
+    text-align: center;
+    color: #74b7e0;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#easy {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#awesome {
+    width: 30%;
+    height: 450px;
+    background-color: #74b7e0;
+    border-radius: 50%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    position: absolute;
+    top: 210%;
+    right: 40%;
+    z-index: -1;
+}
+
+#awesome ul {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#iphone img {
+    width: 95%;
+
+}
+
+#iphone {
+    position: absolute;
+    top: 135%;
+}
+
+#gold {
+    width: 30%;
+    height: 450px;
+    background-color: #90e43e;
+    border-radius: 50%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    position: absolute;
+    top: 140%;
+    opacity: 0.98;
+}
+
+#gold ul {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#track {
+    width: 30%;
+    height: 450px;
+    background-color: #f9b440;
+    border-radius: 50%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    position: absolute;
+    top: 125%;
+    right: 10%;
+    opacity: 0.98;
+}
+
+#track ul {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+/* ----------------------------------------------------------------------AWARD  SECTION -------------------------------------------- */
+
+#award {
+    width: 100%;
+    height: 300px;
+    margin-top: 500px;
+    background-color: #f5f1ee;
+    text-align: center;
+
+    /* border-radius: 50%;
+    transform-origin: bottom;
+    transform: translateX(-5%) scale(1.5); */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#award div {
+    margin-top: 30px;
+}
+
+.vertical {
+    height: 200px;
+    border: 0.1px dashed silver;
+}
+
+.inside_award {
+    width: 30%;
+}
+
+.inside_award h6 {
+    font-size: 30px;
+    color: #74b7e0;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inside_award p {
+    color: #6f809b;
+    font-size: 27px;
+    margin-top: -38px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* -----------------------------FEATURES SECTION------------------------------------------------------ */
+
+#key_features {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#key_features div {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 15%;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.7s;
+}
+
+#key_features div:hover {
+    transform: scale(1.1);
+}
+
+#key_features div a img {
+    height: 150px;
+    margin-top: 20px;
+}
+
+#key_features div a p {
+    width: 70%;
+    margin-left: 15%;
+    color: #15253e;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#key_features div a {
+    text-decoration: none;
+}
+
+.display {
+    background-color: #f5f1ee;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    top: 320%;
+    left: 20%;
+    height: 80%;
+    width: 60%;
+    border-radius: 40px;
+    z-index: 10;
+    display: none;
+}
+
+.display span {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.display>div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+.display>div>div {
+    width: 40%;
+}
+
+.display>div>div>img {
+    width: 70%;
+    margin-left: 100px;
+    height: 400px;
+}
+
+.display h3 {
+    color: #15253e;
+    text-align: center;
+    font-size: 35px;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+
+
+/* -----------------------------------------------------apple watch------------------------------------------------------ */
+
+#main {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: #f4ad42;
+}
+
+#main>div {
+    width: 45%;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.content {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content>div:nth-child(1) {
+    width: 13%;
+    height: 90px;
+}
+
+i {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.content>div:nth-child(2) {
+    width: 65%;
+    margin-left: -50px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#video img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+#play_video {
+    position: absolute;
+    top: 404%;
+    border: 10px solid gray;
+    border-radius: 20px;
+    display: none;
+}
+
+#app_pic {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#app_pic>div:nth-child(1) {
+    width: 13%;
+    height: 90px;
+    background-color: #3c7f00;
+    border-radius: 50%;
+}
+
+#app_pic>div:nth-child(2) {
+    width: 65%;
+    margin-left: -50px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#apple_watch {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f4ad42;
+
+}
+
+#apple_watch div {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 20%;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.7s;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#apple_watch div:hover {
+    transform: scale(1.1);
+}
+
+#apple_watch div a img {
+    height: 150px;
+    margin-top: 20px;
+}
+
+#apple_watch div a p {
+    width: 70%;
+    margin-left: 15%;
+    color: #15253e;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#apple_watch div a {
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------------carauser---------------------------------------------------- */
+h1+p {
+    text-align: center;
+    color: #46618a;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+#slider {
+    width: 50%;
+    margin: auto;
+    height: 600px;
+    border: 30px solid black;
+    border-radius: 30px;
+    position: relative;
+}
+
+#slider img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#slider>button:hover {
+    transform: scale(1.1);
+}
+
+#post {
+    position: absolute;
+    top: 50%;
+    right: -30%;
+    background: rgba(0, 0, 0, 0.17);
+    border-radius: 100%;
+    font-size: 80px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#slider>button:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    background: rgba(0, 0, 0, 0.17);
+    border-radius: 100%;
+    font-size: 80px;
+    width: 100px;
+    cursor: pointer;
+}
+
+/* -----------------------------------------------------carauser_end---------------------------------------------------------------- */
+
+.un {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.un1 {
+    width: 65%;
+    position: relative;
+}
+
+.un1 img {
+    width: 100%;
+    height: 450px;
+}
+#un1_text{
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    left: 8%;
+    color: white;
+}
+#un1_text>h4{
+    font-size: 44px;
+}
+#un1_text>p{
+    font-size: 24px;
+    margin-top: -25px;
+}
+
+.un2 {
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.un2>div:nth-child(1) {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.un2>div:nth-child(1) img {
+    width: 25%;
+    height: 25%;
+    margin-top: 20%;
+}
+h5{
+    font-size: 38px;
+    margin-left: 20px;
+}
+.un2>div:nth-child(2) {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.un2>div:nth-child(2) img{
+    width: 100%;
+}
+
+#dos1{
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#dos1 img{
+    width: 100%;
+    height: 450px;
+}
+#dos2{
+    width: 65%;
+}
+#dos2 img{
+    width: 100%;
+    height: 450px;
+}
+.tres1{
+    width: 65%;
+}
+.tres1 img {
+    width: 100%;
+    height: 700px;
+}
+.tres2{
+    width: 30%;
+}
+.tres2>div:nth-child(1) img{
+   width: 100%;
+   height: 345px;
+}
+.tres2>div:nth-child(2) img{
+    width: 100%;
+    height: 345px;
+ }
+ #try{
+    width: 15%;
+    margin: auto;
+ }
+ #try a img{
+    width: 100%;
+ }
+ #review{
+    width: 100%;
+    height: 800px;
+    background-color: #f5f1ee;
+    position: relative;
+ }
+ #a{
+    width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    border-radius: 20px;
+ }
+ .font{
+    font-size: 28px;
+    padding-left: 60px;
+
+ }
+ .font+p{
+    font-size: 22px;
+    margin-top: -40px;
+    padding-left: 60px;
+    padding-right: 60px;
+ }
+ #g{
+    position: absolute;
+    width: 150px;
+    top: 15%;
+    left: 8%;
+ }
+ #b{
+    width: 32%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    position: absolute;
+    top: 33%;
+    right: 10%;
+    border-radius: 20px;
+    z-index: 2;
+ }
+ #h{
+    position: absolute;
+    width: 150px;
+    top: 28%;
+    right: 34%;
+    z-index: 3;
+ }
+ #c{
+    width: 38%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    border-radius: 20px;
+ }
+ #i{
+    position: absolute;
+    width: 150px;
+    top: 55%;
+    left: 13%;
+    z-index: 3;
+ }
+ #d{
+    width: 40%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    border-radius: 20px;
+ }
+ #j{
+    position: absolute;
+    width: 150px;
+    top: 85%;
+    right: 42%;
+    z-index: 3;
+ }
+ #e{
+    width: 35%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    position: absolute;
+    top: 107%;
+    left: 10%;
+    border-radius: 20px;
+ }
+ #k{
+    position: absolute;
+    width: 150px;
+    top: 102%;
+    left: 8%;
+ }
+ #f{
+    width: 38%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    position: absolute;
+    top: 142%;
+    left: 27%;
+    border-radius: 20px;
+ }
+ #l{
+    position: absolute;
+    width: 150px;
+    top: 137%;
+    left: 25%;
+    z-index: 3;
+ }
+ #review1{
+    width: 100%;
+    height: 1800px;
+    background-color: #f5f1ee;
+ }

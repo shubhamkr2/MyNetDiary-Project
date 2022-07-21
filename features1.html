@@ -5,341 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #back{
-            width: 100%;
-            height: 650px;
-            background-color: green;
-            position: relative;
-            border-radius: 0px 0px 50% 50%/0px 0px 100% 100%;
-            overflow: hidden;
-            transform: scaleX(2.5);
-           
-
-        }
-        #first{
-            display: flex;
-            position: absolute;
-            top: 15%;
-            color: white;
-            font-size: 40px;
-            justify-content: space-evenly;
-        }
-        #one{
-            width: 65%;
-        }
-        #one img{
-            width: 100%;
-        }
-        #two{
-            width: 25%;
-            box-sizing: border-box;
-        }
-        #top{
-            width: 80%;
-        }
-        #item{
-            color: #fcea7f;
-            font-size: 30px;
-            margin-top: -15px;
-        }
-        #rating{
-            margin-top: -15px;
-            text-align: start;
-        }
-        #rating h3{
-            display: inline;
-        }
-        #rating p{
-            font-size: 25px;
-            display: inline;
-        }
-        
-        #star img{
-            width: 8%;
-        }
-        #play{
-            margin-top: 20px;
-        }
-        #play a img{
-            width: 40%;
-            height: 100px;
-        }
-        hr{
-            margin-top: 150px;
-            border:0.1px dashed gray;
-            opacity: 0.2;
-        }
-/* ------------------------------------------------------------------------IPHONE SECTION------------------------------------------- */
-
-        h1{
-            text-align: center;
-            color: #74b7e0;
-            font-weight: bold;
-            font-size: 50px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-        #easy{
-            width: 100%;
-            height: 600px;
-            position: relative;
-        }
-        #awesome{
-            width: 30%;
-            height: 450px;
-            background-color: #74b7e0 ;
-            border-radius: 50%;
-            color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 25px;
-            line-height: 30px;
-            position: absolute;
-            top: 210%;
-            right: 40%;
-            z-index: -1;
-         }
-         #awesome ul{
-           padding-top: 100px;    
-           padding-left: 100px;
-         }
-         #iphone img{
-            width: 95%;
-            
-         }
-         #iphone{
-            position: absolute;
-            top: 135%;
-         }
-         #gold{
-            width: 30%;
-            height: 450px;
-            background-color: #90e43e ;
-            border-radius: 50%;
-            color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 25px;
-            line-height: 30px;
-            position: absolute;
-            top: 140%;
-            opacity: 0.98;
-         }
-         #gold ul{
-           padding-top: 100px;    
-           padding-left: 100px;
-         }
-         #track{
-            width: 30%;
-            height: 450px;
-            background-color: #f9b440  ;
-            border-radius: 50%;
-            color: white;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 25px;
-            line-height: 30px;
-            position: absolute;
-            top: 125%;
-            right: 10%;
-            opacity: 0.98;
-         }
-         #track ul{
-           padding-top: 100px;    
-           padding-left: 100px;
-         }
-/* ----------------------------------------------------------------------AWARD  SECTION -------------------------------------------- */
-
-         #award{
-            width: 100%;
-            height: 300px;
-            margin-top: 500px;
-            background-color: #f5f1ee;
-            text-align: center;
-
-            /* border-radius: 50%;
-            transform-origin: bottom;
-            transform: translateX(-5%) scale(1.5); */
-            display: flex;
-            justify-content: space-evenly;
-         }
-         #award div{
-            margin-top: 30px;
-         }
-       .vertical{
-        height: 200px;
-        border: 0.1px dashed silver;
-       }
-       .inside_award{
-        width: 30%;
-       }
-       .inside_award h6{
-        font-size: 30px;
-        color:#74b7e0 ;
-        margin-top: 10px;
-        font-weight: bold;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-       .inside_award p{
-        color: #6f809b ;
-        font-size: 27px;
-        margin-top: -38px;
-        font-weight: bold;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-       /* -----------------------------FEATURES SECTION------------------------------------------------------ */
-
-       #key_features{
-        width: 95%;
-        margin: auto;
-        display: flex;
-        justify-content: space-evenly;
-       }
-       #key_features div{
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        width: 15%;
-        height: 250px;
-        text-align: center;
-        border-radius: 20px;
-        transition: 0.7s;
-       }
-       #key_features div:hover{
-        transform: scale(1.1);
-       }
-       #key_features div a img{
-        height: 150px;
-        margin-top: 20px;
-       }
-       #key_features div a p{
-        width: 70%;
-        margin-left: 15%;
-        color:  #15253e;
-        font-size: 15px;
-        font-weight: bold;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-       #key_features div a{
-        text-decoration: none;
-       }
-       #popup{
-        background-color: #f5f1ee;
-        position: absolute;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;        top: 320%;
-        left: 20%;
-        height: 80%;
-        width: 60%;
-        border-radius: 40px;
-        z-index: 10;
-        display: block;
-       }
-       #popup span{
-        position: absolute;
-        top: 0;
-        right: 20px;
-        font-size: 40px;
-        font-weight: bold;
-        color: white;
-        cursor: pointer;
-        z-index: 11;
-       }
-       #popup>div{
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: center;
-
-       }
-       #popup>div>div{
-        width: 40%;
-       }
-       #popup>div>div>img{
-        width: 70%;
-        margin-left: 100px;
-       }
-       #popup h3{
-        color: white;
-        text-align: center;
-       }
-       #popup:hover{
-        transform: scale(1.1);
-       }
-       #popup:hover~#key_features{
-        filter: blur(2px);
-        background: teal;
-       }
-       
-
-       /* -----------------------------------------------------apple watch------------------------------------------------------ */
-
-       #main{
-        width: 100%;
-        height: 400px;
-        display: flex;
-        justify-content: space-evenly;
-       }
-       #main>div{
-        width: 45%;
-        margin-top: 50px;
-       }
-       #app_pic{
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-       }
-       #app_pic>div:nth-child(1){
-        width: 13%;
-        height: 90px;
-        background-color: #3c7f00;
-        border-radius: 50%;
-       }
-       #app_pic>div:nth-child(2){
-        width: 65%;
-        margin-left: -50px;
-        font-weight: bold;
-        font-size: 25px;
-        text-align: start;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-       .content{
-        margin-top: 50px;
-        font-weight: bold;
-        font-size: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-
-       #apple_watch{
-        width: 95%;
-        margin: auto;
-        display: flex;
-        margin-top: 100px;
-        justify-content: space-evenly;
-       }
-       #apple_watch div{
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        width: 20%;
-        height: 250px;
-        text-align: center;
-        border-radius: 20px;
-        transition: 0.7s;
-       }
-       #apple_watch div:hover{
-        transform: scale(1.1);
-       }
-       #apple_watch div a img{
-        height: 150px;
-        margin-top: 20px;
-       }
-       #apple_watch div a p{
-        width: 70%;
-        margin-left: 15%;
-        color:  #15253e;
-        font-size: 15px;
-        font-weight: bold;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       }
-       #apple_watch div a{
-        text-decoration: none;
-       }
-       
-    </style>
+    <link rel="stylesheet" href="features1.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    
 </head>
 <body>
     <div id="back"></div>
@@ -361,7 +33,13 @@
                 <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-w-shadow-5.png" alt="">
             </div>
             <div id="play">
-                <a href=""><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/app-store-badge-new.svg" alt=""></a>
+                <a href="https://apps.apple.com/us/app/calorie-counter-mynetdiary/id287529757"><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/app-store-badge-new.svg" alt=""></a>
+            </div>
+            <div id="bigb">
+                <img src="	https://s3.amazonaws.com/img.mynetdiary.com/images/bg-start-left@1x.png" alt="">
+            </div>
+            <div id="smallb">
+                <img src="	https://s3.amazonaws.com/img.mynetdiary.com/images/decorate-bberry-1@2x.png" alt="">
             </div>
 
         </div>
@@ -371,7 +49,7 @@
     <div id="easy"></div>
     <div id="iphone"><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/app-features-iphone@2x.png" alt=""></div>
     <div id="gold">
-            <ul>THE GOLD
+            <ul><i class="fa-solid fa-trophy"></i>THE GOLD
                 STANDARD OF
                 FOOD DATABASES
                 <li>1,215,000 verified foods</li>
@@ -381,14 +59,14 @@
             </ul>
         </div>
     <div id="track">
-        <ul>FASTEST
+        <ul><i class="fa-solid fa-book"></i>FASTEST
             TRACKING
             <li>Fewer steps than in any other app to log foods</li>
             <li>Faster food logging saves you time every day</li>
         </ul>
     </div>
     <div id="awesome">
-        <ul>AWESOME EVEN WITHOUT SUBSCRIPTIONS
+        <ul><i class="fa-solid fa-hands-holding"></i>AWESOME EVEN WITHOUT SUBSCRIPTIONS
             <li>Provides for free more than any other diet app</li>
             <li>No ads or promoted stories</li>
         </ul>
@@ -422,35 +100,36 @@
             </a>
         </div>
         <div>
-            <a href="#">
+            <a href="#award" onclick="toggle()">
                 <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/diet-nutrients-insights@1x.png" alt="">
             <p>DIET & NUTRIENTS
                 INSIGHTS</p>
             </a>
         </div>
         <div>
-            <a href="#">
+            <a href="#award" onclick="toggle()">
                 <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/healthy-diet-planning@1x.png" alt="">
             <p>HEALTHY DIET
                 PLANNING</p>
             </a>
         </div>
         <div>
-           <a href="#">
+           <a href="#award" onclick="toggle()">
             <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/medication-diabetes@1x.png" alt="">
             <p>MEDICATION &
                 DIABETES</p>
            </a>
         </div>
         <div>
-            <a href="#">
+            <a href="#awards" onclick="toggle()">
                 <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/beautiful-visual-design@1x.png" alt="">
             <p>BEAUTIFUL
                 VISUAL DESIGN</p>
             </a>
         </div>
     </div>
-    <div id="popup"><span id="cross">&times;</span>
+    <!-- ----------------------------------------------------popup_starts-------------------------------------------------------------- -->
+    <div id="popup" class="display"><span id="cross">&times;</span>
         <h3>Digital Coach</h3>
         <div>
             <div>
@@ -461,12 +140,51 @@
                 <p>Visualizes current daily calorie deficit, estimates weight loss rate.</p>
             </div>
         </div>
+        <button class="left" onclick="display4pre()"><</button>
+        <button class="right" onclick="display2()">></button>
         
     </div>
 
-    <div id="main">
+    <div id="popup2" class="display"><span id="cross2">&times;</span>
+        <h3>Digital Coach</h3>
         <div>
+            <div>
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/digital_coach_meal_reminders.png" alt="">
+            </div>
+            <div>
+                <h3>Reminders</h3>
+                <p>Friendly, intelligent reminders help you stay on track.</p>
+            </div>
+        </div>
+        <button class="left" onclick="display1pre()"><</button>
+        <button class="right" onclick="display3()">></button>
+        
+    </div>
+
+    <div id="popup3" class="display"><span id="cross3">&times;</span>
+        <h3>Digital Coach is here</h3>
+        <div>
+            <div>
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/digital_coach_meal_reminders.png" alt="">
+            </div>
+            <div>
+                <h3>Reminders</h3>
+                <p>Friendly, intelligent reminders help you stay on track.</p>
+            </div>
+        </div>
+        <button class="left" onclick="display2pre()"><</button>
+        <button class="right" onclick="display4()">></button>
+        
+    </div>
+
+    <!-- -------------------------------------------------------------popup_ends----------------------------------------------------- -->
+
+    <div id="main">
+        <div id="video">
             <!-- append video here -->
+            <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/thumb-video-85I1Bxg7x3A.jpg" alt="" onclick="play()" id="video_image">
+            <iframe width="660" id="play_video" height="315" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
         <div id="apple_app">
             <div id="app_pic">
@@ -477,10 +195,12 @@
                 <div>Awesome App for
                     Apple Watch</div>
             </div>
-            <div class="content">Most comprehensive and easy - get
+            <div class="content"><div><i class="fa-regular fa-circle-check"></i></div> 
+            <div>Most comprehensive and easy - get
                 things done in couple of seconds</div>
-            <div class="content">There is no better watch diet app
-                than MyNetDiary</div>
+        </div>
+            <div class="content"><div><i class="fa-regular fa-circle-check"></i></div> <div>There is no better watch diet app
+                than MyNetDiary</div></div>
         </div>
     </div>
     
@@ -514,20 +234,96 @@
         </div>
        
     </div>
-    
+    <h1>Awesome on iPad</h1>
+    <p>VISUAL ANALYSIS SHOWS PROGRESS</p>
+    <div id="slider">
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/ipad_main.png" alt="">
+        <button id="pre"><</button>
+        <button id="post">></button>
+    </div>
+
+    <h1>Only in MyNetDiary</h1>
+    <div class="un">
+        <div class="un1">
+            <img src="	https://s3.amazonaws.com/img.mynetdiary.com/images/bg-ar-grocery@2x.jpg" alt="">
+            <div id="un1_text"><h4>AR Grocery
+                Check</h4>
+                <p>Get help shopping
+                    with
+                    Augmented Reality</p>
+            </div>
+        </div>
+        <div class="un2">
+            <div> <img src="	https://s3.amazonaws.com/img.mynetdiary.com/images/icon-imessage@2x.png" alt=""> 
+                <h5>Share your
+                    meals &
+                    recipes with
+                    iMessage</h5>
+            </div>
+            <div> <img src="	https://s3.amazonaws.com/img.mynetdiary.com/images/bg-imessage@2x.png" alt=""> </div>
+        </div>
+    </div>
+
+    <div class="un">
+        <div id="dos1">
+            <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/bg-siri@2x.jpg" alt="">
+        </div>
+        <div id="dos2">
+            <img src="	https://s3.amazonaws.com/img.mynetdiary.com/images/bg-ios-health@2x.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="un">
+        <div class="tres1">
+            <img src="	https://s3.amazonaws.com/img.mynetdiary.com/images/bg-gold-standard@2x.jpg" alt="">
+        </div>
+        <div class="tres2">
+            <div> <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/bg-coming-soon@2x.jpg" alt=""> 
+            </div>
+            <div> <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/bg-flexibility@2x.jpg" alt=""> </div>
+        </div>
+    </div>
+    <h1>Try great features now</h1>
+    <div id="try">
+        <a href="https://apps.apple.com/us/app/calorie-counter-mynetdiary/id287529757"><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/app-store-badge-new.svg" alt=""></a>
+    </div>
+
+    <div id="review">
+        <h1>Our Reviews</h1>
+        <div id="a">
+            <h6 class="font">Fast, intuitive, user friendly</h6>
+            <p>I have tried other calorie tracking programs over years and this app is by far the best I’ve come across. I highly recommend it. The free version is very good and I am now enjoying the extra functions through a paid subscription.</p>
+        </div>
+        <div id="b">
+            <h6 class="font">Just fantastic</h6>
+            <p>Where to begin? The intarface is attractive and extremely easy to use. Tracking calories really works because this system pushes me towards healthy food choices. It demystifies the process and makes it fun. It gives me control over every aspect of the diet and makes it fun to beat the app every day. I’m hooked.</p>
+        </div>
+        <div id="c">
+            <h6 class="font">Great!</h6>
+            <p>I started using this app in May last year. I’ve since lost 24 pounds and have managed to keep it off. It’s great in helping show your carbs and fat amounts and helps educate with helpful comments, alphabetical grading and I love it. It’s a daily part of my life now.</p>
+        </div>
+        <div id="d">
+            <h6 class="font">Makes food journaling easy</h6>
+            <p>I've been using this app for over a month and it has helped me lose 10 lbs. already! It makes food journaling and counting calories/nutrition info very easy to integrate into your day. Another benefit that I hadn't planned for is a higher awareness it has given me for my daily carb/protein/fat ratio. I can see during the day if my food intake is leaning too heavily in one direction and adjust my meal accordingly.</p>
+        </div>
+        <div id="e">
+            <h6 class="font">Extensive Database</h6>
+            <p>MND contains the most extensive food and exercise database I've seen in an electronic diet log - and I've used quite a few of them over the past 15 months on both my former Palm Treo and on my new iPhone. This is the best I've seen.</p>
+        </div>
+        <div id="f">
+            <h6 class="font">Definitely worth it!</h6>
+            <p>Using MyNetDiary has made me much more conscious of how many calories I eat, and that awareness along with increased exercise has helped me to lose 15 pounds in five weeks. I love the chart and report features and the fact that everything can be exported (from your computer, not the iPhone) to Microsoft Excel.</p>
+        </div>
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/features-quotes-green.png" alt="" id="g">
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/features-quotes-orange.png" alt="" id="h">
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/features-quotes-blue.png" alt="" id="i">
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/features-quotes-green.png" alt="" id="j">
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/features-quotes-orange.png" alt="" id="k">
+        <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/features-quotes-blue.png" alt="" id="l">
+    </div>
+    <div id="review1"></div>
     
     
 </body>
 </html>
-<script>
-         function toggle(){
-            document.getElementById("popup").style.display="block";
-           
-            
-         };
-         document.getElementById("cross").addEventListener("click",function(){
-            document.getElementById("popup").style.display="none";
-         })
-         
-        
-</script>
+<script src="./features1.js"></script>
