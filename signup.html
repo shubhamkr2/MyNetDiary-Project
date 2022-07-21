@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <script src="https://kit.fontawesome.com/7f5e7c5cb8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <style>
+       
+        body{
+            background-color: whitesmoke;
+        }
+        form h2{
+           
+            margin-top: -20px;
+            margin-left: -30px;
+            font-size: 20px;
+            color: rgb(23, 29, 210);
+        }
+        #submit{            
+            width: 20px;
+            color: black;
+             background: rgb(203, 203, 213);     
+            }
+            #submit:hover{
+              background: green;
+              color: white;
+            }       
+   
+        #form_page{
+            background: white;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            padding: 60px;
+            /* border: 1px solid red; */
+           border-radius: 3px;
+            width: 400px;
+            margin-bottom: 80px;
+            margin-top: 30px;
+            margin-left: 80px;
+            margin-right: 140px;
+           
+        }
+       
+       
+        #tags{
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        #inputs{
+             background: rgb(240, 246, 240);
+            box-shadow: rgba(171, 180, 187, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            /* border: 1px solid blue; */
+            display: grid;
+            gap: 25px;
+            margin-left: 40px;                    
+           margin-bottom: 20px;          
+           padding: 40px;
+          font-size: 13px; 
+          margin-top: -10px; 
+          border-radius: 7px;
+          color: rgb(7, 73, 7); 
+        }
+        #inputs input{
+            border: none;
+            width: 200px;
+            font-size: 10px;
+            padding: 5px;
+            border-radius:7px;
+            padding-left: 15px;
+        }
+         input:hover{
+            background: rgb(194, 175, 175);
+         }
+
+        input:focus{
+            border: 1px solid blue;
+           background: rgb(220, 227, 229);
+          color: black;
+        }
+        
+        #already p{
+            /* background-color: black; */
+            color: black;
+        }
+        #already a{
+            color: blue;
+        }
+        #already a:hover{
+            background: green;
+            color: white;
+            padding: 5px;
+            border-radius: 3px;
+        }
+     
+       
+      
+
+
+
+    </style>
+</head>
+<body id="body">
+   <div id="form_page">
+    <form action="">
+       <center><h2>Signup</h2></center>       
+      <div id="tags"> 
+        <div id="inputs"> 
+        <input type="text"  placeholder="Enter your Name"  id="faizan">       
+        <input type="email" placeholder="Enter your Email" id="email">
+        <input type="text" placeholder="Enter your Password"  id="password">
+        <input type="text" placeholder="Enter your Username"  id="username">
+        <input type="number" placeholder="Enter your Mobile"  id="mobile">
+        <input type="text" placeholder=" Description"  id="description">
+        <input type="submit" value="SignUp" id="submit">
+        <div id="already"><p>Already have an account? <a href="login.html">Sign In</a></p></div> 
+    </div>    
+</form> 
+
+</div>   
+</body>
+</html>
+<script src="signup.js" type="module"></script>
