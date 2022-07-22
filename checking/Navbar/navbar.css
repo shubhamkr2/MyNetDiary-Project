@@ -1,0 +1,150 @@
+/* for navbar  */
+.nav {
+    display: flex;
+    padding: 15px 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0b9f46;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+#navbarLogo,
+#nav_option>a {
+    margin: 0 10px;
+}
+
+#navbarLogo>img {
+    height: 66px;
+}
+
+#nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+#nav_option {
+    display: flex;
+    margin: 0 50px;
+    width: 400px;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#nav_option>a {
+    margin: 0 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.dropdown_option {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.dropdown_option a {
+    color: #1f4163;
+    padding: 10px 10px;
+    padding-left: 23px;
+    text-decoration: none;
+    display: block;
+    font-weight: 580;
+}
+
+.dropdown_option a:hover {
+    background-color: rgb(255, 142, 62);
+    color: #FFFFFF;
+    border-radius: 2px;
+}
+
+.option:hover .dropdown_option {
+    display: block;
+}
+
+.option:hover .nav_btn {
+    text-decoration: none;
+    color: rgb(255, 172, 69);
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    width: 120px;
+    height: 15px;
+    border-radius: 3px;
+}
+
+.option {
+    position: relative;
+    display: inline-block;
+}
+
+.nav_btn {
+    color: #FFFFFF;
+    padding: 25px;
+    font-size: 20px;
+}
+
+#login_btn {
+    display: flex;
+    margin-left: 50px;
+}
+
+.signup_btn {
+    border: 3px solid rgba(7, 48, 7, 0.774);
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 15px 25px;
+    padding-top: 16px;
+    background-color: #fa9e53;
+    border-radius: 27px;
+    color: white;
+}
+
+.signup_btn:hover {
+    background-color: #ffab51;
+}
+
+.signin_btn {
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 15px 25px;
+    border: 3px solid #4bd82866;
+    border-radius: 27px;
+    color: white;
+}
+
+/* On js function for scrolling */
+.f_Navbar {
+    background-color: white;
+}
+
+.f_nav_Opt {
+    color: #1f4163;
+}
+
+.f_nav_Opt:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.f_signup {
+    border: 3px solid rgb(236, 223, 223);
+}
+
+.f_signin {
+    color: #079B41;
+}
