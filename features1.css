@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    font-family: 'Roboto',sans-serif;
+}
 
 #back {
     width: 60%;
@@ -118,7 +121,7 @@ h1 {
     font-size: 25px;
     line-height: 30px;
     position: absolute;
-    top: 210%;
+    top: 220%;
     right: 40%;
     z-index: -1;
 }
@@ -135,7 +138,7 @@ h1 {
 
 #iphone {
     position: absolute;
-    top: 135%;
+    top: 145%;
 }
 
 #gold {
@@ -148,7 +151,7 @@ h1 {
     font-size: 25px;
     line-height: 30px;
     position: absolute;
-    top: 140%;
+    top: 150%;
     opacity: 0.98;
 }
 
@@ -167,8 +170,8 @@ h1 {
     font-size: 25px;
     line-height: 30px;
     position: absolute;
-    top: 125%;
-    right: 10%;
+    top: 135%;
+    right: 5%;
     opacity: 0.98;
 }
 
@@ -281,7 +284,7 @@ h1 {
     right: 20px;
     font-size: 40px;
     font-weight: bold;
-    color: white;
+    color: gray;
     cursor: pointer;
     z-index: 11;
 }
@@ -291,7 +294,6 @@ h1 {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-
 }
 
 .display>div>div {
@@ -308,19 +310,46 @@ h1 {
     color: #15253e;
     text-align: center;
     font-size: 35px;
+    margin-top: 50px;
+}
+.display>div>div+div>h3{
+    font-size: 28px;
+}
+.display>div>div+div>p{
+    font-size: 22px;
+}
+.display>button{
+    position: absolute;
+    top: 40%;
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 40px;
+    width: 100px;
+    cursor: pointer;
+    background-color: white;
+    border: 5px solid gray;
 }
 
 .left {
-    position: absolute;
-    top: 50%;
+    left: -50px;
 }
-
 .right {
-    position: absolute;
-    top: 50%;
-    right: 0;
+    right: -50px;
 }
-
+.right:hover{
+    color: red;
+}
+.left:hover{
+    color: red;
+}
+.dumbell{
+    border: 10px solid whitesmoke;
+    position: absolute;
+    background-color: #f9b440;
+    border-radius: 100%;
+    top: -15%;
+    left: 42%;
+}
 
 
 /* -----------------------------------------------------apple watch------------------------------------------------------ */
@@ -374,8 +403,22 @@ i {
     height: 100%;
     position: relative;
     cursor: pointer;
+    border-radius: 20px;
 }
-
+#play_img{
+    position: absolute;
+    width: 8%;
+    top: 420%;
+    left: 22%;
+    border-radius: 100%;
+}
+#video_image:hover~#play_img{
+    transform: scale(1.1);
+}
+#play_img img{
+    width: 100%;
+    border-radius: 100%;
+}
 #play_video {
     position: absolute;
     top: 404%;
@@ -478,27 +521,20 @@ h1+p {
 #slider>button:hover {
     transform: scale(1.1);
 }
-
-#post {
+#slider>button{
     position: absolute;
-    top: 50%;
-    right: -30%;
+    top: 40%;
     background: rgba(0, 0, 0, 0.17);
     border-radius: 100%;
     font-size: 80px;
     width: 100px;
     cursor: pointer;
 }
-
-#slider>button:nth-child(2) {
-    position: absolute;
-    top: 50%;
+#post {
+    right: -30%;
+}
+#pre{
     left: -30%;
-    background: rgba(0, 0, 0, 0.17);
-    border-radius: 100%;
-    font-size: 80px;
-    width: 100px;
-    cursor: pointer;
 }
 
 /* -----------------------------------------------------carauser_end---------------------------------------------------------------- */
@@ -567,27 +603,75 @@ h5{
 #dos1{
     width: 30%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
 }
 #dos1 img{
     width: 100%;
     height: 450px;
 }
+#mat1{
+    position: absolute;
+    width: 25%;
+    height: 100px;
+    top: 50%;
+    left: 10%;
+}
+#mat1 img{
+    width: 100%;
+    height: 100%;
+}
+#mat2{
+    position: absolute;
+    width: 70%;
+    top: 60%;
+    left: 7%;
+}
 #dos2{
     width: 65%;
+    position: relative;
 }
 #dos2 img{
     width: 100%;
     height: 450px;
 }
+#mat3{
+    position: absolute;
+    width: 10%;
+    height: 90px;
+    top: 10%;
+    left: 8%;
+}
+#mat3 img{
+    width: 100%;
+    height: 100%;
+}
+#mat4{
+    position: absolute;
+    width: 30%;
+    color: white;
+    top: 45%;
+    left: 7%;
+    font-size: 56px;
+}
 .tres1{
     width: 65%;
+    position: relative;
 }
 .tres1 img {
     width: 100%;
     height: 700px;
 }
+#mat5{
+    position: absolute;
+    width: 65%;
+    color: white;
+    top: -10px;
+    left: 7%;
+    font-size: 56px;
+}
 .tres2{
     width: 30%;
+    position: relative;
 }
 .tres2>div:nth-child(1) img{
    width: 100%;
@@ -597,6 +681,24 @@ h5{
     width: 100%;
     height: 345px;
  }
+ .tres2>div:nth-child(2){
+    margin-top: 8px;
+ }
+ #mat6{
+    position: absolute;
+    width: 65%;
+    color: white;
+    top: -10px;
+    left: 7%;
+    font-size: 44px;
+}
+#mat7{
+    position: absolute;
+    width: 65%;
+    top: 45%;
+    left: 7%;
+    font-size: 44px;
+}
  #try{
     width: 15%;
     margin: auto;

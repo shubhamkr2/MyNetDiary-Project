@@ -1,45 +1,70 @@
 let play=()=>{
     document.getElementById("video_image").style.display="none";
+    document.getElementById("play_img").style.display="none";
 let play_video=document.getElementById("play_video");
 play_video.style.display="block"
 play_video.src="https://www.youtube.com/embed/85I1Bxg7x3A"
 }
 
-
+let a= document.getElementById("popup");
+let b= document.getElementById("popup2");
+let c= document.getElementById("popup3");
+let e= document.querySelector("#award");
+let f= document.querySelector("#main");
+let g=document.querySelector("#key_features");
 
  function toggle(){
-    document.getElementById("popup").style.display="block";
-   
+   a.style.display="block";
+    e.style.opacity="0.1";
+    f.style.opacity="0.1";
+    g.style.opacity="0.1";
     
  };
  document.getElementById("cross").addEventListener("click",function(){
-    document.getElementById("popup").style.display="none";
+    a.style.display="none";
+    e.style.opacity="1";
+    f.style.opacity="1";
+    g.style.opacity="1";
  });
 
- function display4pre(){
-    document.getElementById("popup").style.display="none";
-    document.getElementById("popup4").style.display="block"
+ function display3pre(){
+    a.style.display="none";
+    c.style.display="block"
  }
 
  function display2(){
-    document.getElementById("popup").style.display="none";
-    document.getElementById("popup2").style.display="block"
+    a.style.display="none";
+    b.style.display="block"
  }
  document.getElementById("cross2").addEventListener("click",function(){
-    document.getElementById("popup2").style.display="none"
+    b.style.display="none"
+    e.style.opacity="1";
+    f.style.opacity="1";
+    g.style.opacity="1";
  })
 
  function display1pre(){
-    document.getElementById("popup2").style.display="none";
-    document.getElementById("popup").style.display="block"
+    b.style.display="none";
+    a.style.display="block"
  }
 
  function display3(){
-    document.getElementById("popup2").style.display="none";
-    document.getElementById("popup3").style.display="block"
+    b.style.display="none";
+    c.style.display="block"
  }
+ function display2pre(){
+   c.style.display="none";
+   b.style.display="block"
+}
+function display1(){
+   c.style.display="none";
+   a.style.display="block"
+}
  document.getElementById("cross3").addEventListener("click",function(){
-    document.getElementById("popup3").style.display="none"
+    c.style.display="none"
+    e.style.opacity="1";
+    f.style.opacity="1";
+    g.style.opacity="1";
  });
 
  let imgArr=[
