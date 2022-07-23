@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="https://kit.fontawesome.com/7f5e7c5cb8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <style>
+     
+       body{
+            background-color: whitesmoke;
+        }
+        
+        #form_page{
+            width: 600px;
+            /* border: 1px solid red; */
+            padding: 20px;
+            background: whitesmoke;
+            border-radius: 8px;
+            box-shadow: rgba(252, 252, 252, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            margin-bottom: 80px;
+            margin-top: 80px;
+            margin-left: 40px;
+            margin-right: 140px;
+           
+        }
+
+        #tags{
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+            padding: 1;
+        }
+        #inputs{
+            box-shadow: rgba(250, 250, 250, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            /* border: 1px solid blue; */
+            padding: 120px;
+            display: grid;
+            width: 40%;
+            height: 200px;
+            gap: 15px;
+            margin-left: 20px;              
+           margin-bottom: 20px;          
+           padding: 10px;
+          font-size: 10px; 
+          margin-top: 20px; 
+          border-radius: 7px;
+          padding-top: 10px;
+          /* color: rgb(7, 73, 7); */
+          background: rgb(222, 229, 228); 
+        }
+         
+      
+        
+        #inputs input{
+            width: 150px;
+            font-size: 11px;
+            padding: 1px;
+            margin-left: 22px;  
+            padding-left: 10px;
+            border-radius:7px;
+            border: 0ch;
+            cursor: pointer;
+        } 
+        #inputs input:hover{
+            background: rgb(241, 196, 196);
+            color: black;
+        }
+
+        #h1{
+           margin-left: 80px;
+           margin-top:10px;
+        }
+
+        form h2{
+            margin-left: -32px;
+            font-size: 30px;
+            color: rgb(23, 29, 210);
+        }
+        #submit{
+            width: 250px;
+            background: green;
+            color: white;
+            font-size: 50px;
+            border: 0ch;
+            cursor: pointer;
+        } 
+        #submit:hover{
+            background: rgb(3, 88, 7);
+        }
+
+        #para{
+           
+           width: 500px;
+           margin:auto;
+           background:rgb(225, 217, 217);
+           padding: 5px;
+           border-radius: 4px;
+           display: flex;
+           
+       }
+       #para p{
+           color: black;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-size: 10px;
+           margin-left: 20px;
+       }
+
+      
+       
+       
+        #mobile1{
+            color: black;
+            font-size: 30px;
+            margin-top: 17px;
+            color: rgb(63, 62, 62);
+        }                
+       
+        #icons{
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            /* border: 1px solid rgb(252, 5, 5); */
+            width: 250px;
+            background: rgb(255, 251, 251);
+             margin-top: 10px;
+             display: grid;
+             border-radius: 10px;           
+            margin-left: 40px;            
+            margin-top: 20px;        
+            
+        }       
+
+        #icons1 i{
+            background-color: rgb(77, 77, 200);
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 200px;
+            padding: 10px;
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 25px;
+        }     
+     
+        #icons2 i{
+            background-color:rgb(9, 107, 146);
+            width: 200px;
+            padding: 10px;
+            margin-left: 20px;
+             margin-top: 20px;           
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 25px;
+        }
+         
+        #icons3 i{
+            background-color: rgb(16, 15, 15);
+            width: 200px;
+            padding: 10px;
+            margin-left: 25px;
+            margin-top: 20px;
+           
+            color: white;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 25px;
+        } 
+     span{
+        margin-top: 210px;
+        margin-left: 9px;
+        font-size: 13px;
+        font-family: sans-serif;
+      }
+      #icons1 i:hover{
+        background: rgb(100, 78, 172);
+      }
+      #icons2 i:hover{
+        background: rgb(143, 139, 139);  
+        color: whitey;      
+             }
+        #icons3 i:hover{
+        background: rgb(2, 88, 7);        
+             }
+             #easy{
+        color: green;
+        font-size:16px;
+      }
+      #easy:hover{
+        background: rgb(24, 118, 8);
+        color: white;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 5px;
+      }
+      #back p{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      #back{ 
+        margin-left: 150px;
+        margin-top: 20px;
+      }
+    #diary{
+      text-align: center;
+      color: rgb(19, 19, 112);
+    }
+    #apps{
+        display: flex;
+        gap: 20px;
+        margin-left: 260px;
+    }
+    #apps img{
+        width: 120px;
+    }
+    #star{
+        display: flex;
+        margin-left: 320px;
+        margin-top: 10px;
+    }
+    #star img{
+        width: 30px;
+       
+    }
+    </style>
+</head>
+<body id="body">
+   <div id="form_page">
+    <form action="">
+       <center><h2>Sign In</h2></center> 
+       <div id="para"><i id="mobile1" class="fa-solid fa-mobile-screen-button"></i><p>If you use one of
+         MyNetDiary’s mobile apps, please 
+         sign in with the same account name
+          or email as you do in your MyNetDiary
+           mobile app. You can see account 
+           name on the Settings screen in the
+            mobile app.</p></div>
+      <div id="tags"> 
+        <div id="inputs">  
+            <h1 id="h1">Login</h1>
+            <input type="text" id="username" placeholder="Enter your Username">
+            <input type="text" id="password" placeholder="Enter your Password">
+            <input type="submit" value="Login"id="submit" >
+    </div>
+    </form>
+    <div id="icons">
+        <div id="icons1"><i id="face" class="fa-brands fa-facebook-square"> <span>SIGN IN WITH FACEBOOK</span></i></div> 
+        <div id="icons2"><i class="fa-brands fa-google-plus-g"> <span>SIGN IN WITH GOOGLE</span></i> </div>
+        <div id="icons3"><i class="fa-brands fa-apple"> <span>SIGN IN WITH APPLE</span> </i></div>  
+       
+    </div>
+</div> 
+
+<div id="back"><p>No account? <a id="easy" href="signup.html">Sign Up</a>,it's easy.</p></div>
+</div>
+  <div id="diary"><h3>Download Free MyNetDiary App</h3></div> 
+   <div id="apps">
+    <div><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/app-store-badge.svg" alt=""></div>
+    <div><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/google-play-badge.svg" alt=""></div>
+   </div>
+   <div id="star">
+    <div><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-full.png" alt=""></div>
+    <div><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-full.png" alt=""></div>
+    <div><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-full.png" alt=""></div>
+    <div><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-full.png" alt=""></div>
+    <div><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/rating-star-4.7.png" alt=""></div>
+</div>  <div id="diary"><h3>50,907 reviews & counting</h3></div>
+</body>
+</html>
+<script src="login.js" type="module"></script>
