@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    height: 100px;
+    /* border: 1px solid green; */
+}
+#heading{
+    background: #06ac48 url(https://s3.amazonaws.com/img.mynetdiary.com/images/texture-noise@1x.png) 0 0 repeat;
+    background: url(https://s3.amazonaws.com/img.mynetdiary.com/images/texture-noise@1x.png),radial-gradient(ellipse at top,#079B41 0, #079B41 100%);
+    overflow: hidden;
+    border-bottom-right-radius: 200rem 5rem;
+    border-bottom-left-radius: 200rem 5rem;
+    padding: 20px;
+}
+
+#heading>h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: -.04em;
+    font-family: Rubik,Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+
+#container{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    /* border: 1px solid; */
+    margin-top: 30px;
+    justify-content: space-between;
+}
+#container>#sidebar{
+   /* border: 1px solid teal; */
+   width: 25%;
+   height: auto;
+   box-sizing: border-box;
+}
+#content{
+    width: 70%;
+    /* border: 1px solid red; */
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+}
+#content>.card{
+    /* border: 2px solid purple; */
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#content>.card>img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+#content>.card>p{
+    font-size: 18px;
+}
+#content>.card>.headline>a{
+    text-decoration: none;
+    color: #46618a;
+}
+#content>.card>.headline>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#content>.card>.headline{
+    font-size: 24px;
+    font-family: Rubik,Arial, Helvetica, sans-serif;
+}
+
+#disclaimer{
+    width: 70%;
+    /* margin: 3.5rem 80px 4rem; */
+    margin: 40px 0px 20px 320px;
+    /* padding-right: 4rem;
+    padding-left: 5rem; */
+    position: relative;
+    /* padding: 2rem 7rem 2rem 11rem; */
+    padding: 40px 20px 40px 20px;
+    border: 2px dashed #0bb850;
+    text-align: left;
+    border-radius: 1rem;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #46618a;
+}
+
+.wrapper{
+    margin-left: -5rem;
+    margin-right: -5rem;
+    padding-left: 7rem;
+    padding-right: 5rem;
+    background: #fc933b url(https://s3.amazonaws.com/img.mynetdiary.com/images/texture-noise@1x.png) 0 0 repeat;
+    background: url(https://s3.amazonaws.com/img.mynetdiary.com/images/texture-noise@1x.png),radial-gradient(ellipse at top,#fdb941 0,#fc8a38 100%);
+    overflow: hidden;
+    border-bottom-right-radius: 100rem 5rem;
+    border-bottom-left-radius: 100rem 5rem;
+}
+
+.wrapper>h2{
+    color: white;
+    box-sizing: border-box;
+    margin-top: 60px;
+    font-family: Rubik,Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -.04em;
+    text-align: left;
+}
+
+.wrapper>img{
+    margin-left: 500px;
+    height: 500px;
+    display: inline;
+    margin-top: -200px;
+}
+.wrapper>button{
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #0BB850;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Rubik', sans-serif;
+    margin: 30px auto;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 1px solid #9DE3B9;
+}
+.wrapper>button:hover{
+    transform: scale(1.02);
+    border: 1px solid #0BB850;
+    border-style: #0BB850;
+    border-color: #0BB850;
+}
+
+              /*------ sidebar styling -------- */
+
+
+             
+
+#sidebar>div{
+    display: block;
+    width: 100%;
+    
+} 
+#sidebar>.sidebar-head{
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 800;
+    color: #268fd0;
+    line-height: 1.5;
+    box-sizing: inherit;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    letter-spacing: -.04em;
+    padding: 10px;
+} 
+
+#sidebar>.sidebar-head:hover{
+    color: #46618a;
+    cursor: pointer;
+}
+#sidebar>div{
+    border: 1px dashed rgb(155, 151, 151);
+}   
+
+#sidebar>.sidebar-links>a{
+    text-decoration: none;
+    color: #46618a;
+    font-size: 26px;
+    font-family: Rubik,Arial, Helvetica, sans-serif;
+}
+
+#sidebar>.sidebar-links>a:hover{
+    text-decoration: underline;
+}
+
+
+#sidebar>.sidebar-p{
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-weight: 700;
+    color: #46618a;
+    letter-spacing: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar>.sidebar-p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+    
