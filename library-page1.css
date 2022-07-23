@@ -8,6 +8,15 @@
     /* border: 1px solid green; */
 }
 
+#heading{
+    background: #06ac48 url(https://s3.amazonaws.com/img.mynetdiary.com/images/texture-noise@1x.png) 0 0 repeat;
+    background: url(https://s3.amazonaws.com/img.mynetdiary.com/images/texture-noise@1x.png),radial-gradient(ellipse at top,#079B41 0, #079B41 100%);
+    overflow: hidden;
+    border-bottom-right-radius: 200rem 5rem;
+    border-bottom-left-radius: 200rem 5rem;
+    padding: 20px;
+}
+
 #heading>h1{
     text-align: center;
     font-weight: 500;
@@ -15,6 +24,8 @@
     line-height: 1.2;
     letter-spacing: -.04em;
     font-family: Rubik,Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+
 }
 
 #container{
@@ -176,6 +187,7 @@
 #sidebar>.sidebar-links>a:hover{
     text-decoration: underline;
 }
+
 
 #sidebar>.sidebar-p{
     padding: 5px;
