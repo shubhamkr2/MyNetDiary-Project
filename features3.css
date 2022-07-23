@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    font-family: 'Roboto',sans-serif;
+}
+#mh{
+    width: 100%;
+    background-color: #09913e;
+    border-radius: 0px 0px 30% 30%/0px 0px 30% 30%;
+    transform: scaleX(1.1);
+}
+#mh1{
+    width: 70%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 15%;
+    font-size: 30px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#t1{
+    width: 70%;
+    margin: auto;
+}
+#t1 img{
+    width: 100%;
+}
+#m1{
+    position: relative;
+}
+#m1>span{
+    position: absolute;
+    top: -10px;
+    left: -10%;
+    font-size: 30px;
+    background-color: orange;
+    clip-path: polygon(0 25%, 50% 0, 100% 25% ,100% 75%,50% 100%,0 75%);
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+#m2{
+    position: relative;
+}
+#m2>span{
+    position: absolute;
+    top: -10px;
+    left: -10%;
+    font-size: 30px;
+    background-color: orange;
+    clip-path: polygon(0 25%, 50% 0, 100% 25% ,100% 75%,50% 100%,0 75%);
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+#m3{
+    position: relative;
+}
+#m3>span{
+    position: absolute;
+    top: -10px;
+    left: -10%;
+    font-size: 30px;
+    background-color: orange;
+    clip-path: polygon(0 25%, 50% 0, 100% 25% ,100% 75%,50% 100%,0 75%);
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+#m4{
+    position: relative;
+}
+#m4>span{
+    position: absolute;
+    top: -10px;
+    left: -10%;
+    font-size: 30px;
+    background-color: orange;
+    clip-path: polygon(0 25%, 50% 0, 100% 25% ,100% 75%,50% 100%,0 75%);
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+#m5{
+    position: relative;
+}
+#m5>span{
+    position: absolute;
+    top: -10px;
+    left: -10%;
+    font-size: 30px;
+    background-color: orange;
+    clip-path: polygon(0 25%, 50% 0, 100% 25% ,100% 75%,50% 100%,0 75%);
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+.para{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.para h4{
+    font-size: 46px;
+}
+.para h5{
+    font-size: 38px;
+}
+.para p{
+    font-size: 24px;
+}
+.t2{
+    width: 95%;
+    margin: auto;
+    margin-top: 70px;
+}
+.t2 img{
+    width: 100%;
+}
+figcaption{
+    font-size: 18px;
+    text-align: center;
+}
+.t3{
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+}
+.t3 img{
+    width: 100%;
+}
+#t4{
+    width: 65%;
+    margin: auto;
+    margin-top: 100px;
+}
+#t4 img{
+    width: 100%;
+}
+.para1{
+    width: 70%;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #46618a;
+    margin: auto;
+
+ }
+ .para1>h3{
+    font-size: 46px;
+ }
+ #review{
+    background-color: white;
+ }
+ .review_box{
+    background: #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 40px;
+    margin-top: 40px;
+    padding:20px 100px 20px 100px
+ }
+ .date{
+    top: 18px;
+    left: -30px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #0bb850;
+    color: white;
+ }
+ #lower_end{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    background-color: orange;
+    position: relative;
+ }
+ #lower_img{
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+ }
+ #lower_img img{
+    width: 100%;
+ }
+ #lower_butt{
+    position: absolute;
+    left: 2%;
+    bottom: 20%;
+ }
+ #lower_butt a button{
+    background-color: #0bb850;
+    padding: 20px 50px 20px 50px;
+    border-radius: 40px;
+    color: white;
+    font-size: 30px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+ }
+ #lower_text{
+    font-size: 56px;
+    color: white;
+    position: absolute;
+    width: 45%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 100px;
+    left: 2%;
+    top:13% ;
+ }
+

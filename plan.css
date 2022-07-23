@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f0f0f0 ;
+}
+#big_box{
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+#in_box1{
+    width: 25%;
+}
+#in_box1>div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+#in_box1>div:hover{
+    background-color: #cecece ;
+    box-shadow: rgba(27, 24, 24, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+#in_box1>div>img{
+    width: 10%;
+    margin-right: 20px;
+}
+p+h1{
+    color: rgb(102, 148, 33);
+}
+#in_box2{
+    width: 72%;
+}
+#in_box2>div:first-child{
+    margin-top: 40px;
+}
+#in_box2>div:first-child>p{
+    display: inline;
+    padding-left: 20px;
+}
+#in_box2>div:first-child>h1{
+    display: inline;
+}
+input{
+    border: none;
+    font-size: 16px;
+    width: 25%;
+    border-bottom: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: #66a9c8;
+}
+.t_input>div{
+    padding-left: 20px;
+}
+#moving_div{
+    display: none;
+}
+#image_div{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}#image_div>div>img{
+    width: 100%;
+    height: 55%;
+}
+
+span{
+    display: block;
+}
+#sliding{
+    cursor: pointer;
+}
+#sliding:hover{
+    color: rgb(206, 122, 18);
+}
+.lef{
+    margin-left: 20px;
+}
+.image_set{
+    display: flex;
+}
+.image_set>img{
+    width: 2%;
+    height: 2%;
+    margin-top: 18px;
+}
+#in_box2{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    border-radius: 10px;
+}
+span+span{
+    font-size: 14px;
+    color: gray;
+}
+span+span+span{
+    font-size: 25px;
+    color: rgb(102, 148, 33);
+    margin-top: 20px;
+}
+#x>input{
+    color: rgb(102, 148, 33); 
+}
+#x+div{
+    margin-top: 30px;
+}
+#cycle{
+    position: absolute;
+    top: 10%;
+    right: -10%;
+    box-shadow: none;
+}
+#cycle img{
+    width: 75%;
+}
