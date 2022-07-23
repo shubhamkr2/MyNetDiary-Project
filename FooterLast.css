@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#Footer_Last {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #3b8302;
+    color: #c6d6bb;
+
+}
+
+#tag_name>p:nth-child(1) {
+    font-size: 21px;
+    color: white;
+}
+
+#tag_name>p:nth-child(2) {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.f_listli {
+    font-size: 18px;
+    width: 150px;
+}
+
+.f_listli li {
+    margin-bottom: 10px;
+}
+.f_listli li:hover{
+    cursor: pointer;
+    border-bottom: 1px solid;
+}
+
+#f_help {
+    color: #cfec2b;
+}

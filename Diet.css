@@ -1,0 +1,196 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#Diet>img{
+    width: 100%;
+    margin-top: 90px;
+}
+
+                                                    /* For Sidebar  */
+#both_Side{
+    display: flex;
+}
+#side_Bar{
+    width: 27%;
+    height: fit-content;
+    padding-left: 15px;
+}
+#side_Bar>div a{
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 2.2em;
+    color:#4c618a;  
+}
+#side_Bar>div a:hover{
+    text-decoration: underline;
+}
+#side_Bar img{
+    width: 32px;
+    height: 35px;
+    margin-bottom: -6px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#side_Bar>div{
+    margin-bottom: -15px;
+    border-bottom: dotted rgb(238, 234, 234);
+}
+#side_Bar .dark{
+    border-bottom: dotted rgb(185, 184, 184);
+}
+#side_Bar div:first-child{
+    background-color:#f7f4f3 ;
+}
+#side_Bar>div a:first-child{
+    color: #177ab8;
+    font-size: 30px;
+}
+
+                                                        /* For main content  */
+
+#main_Item{
+    width: 70%;
+    padding-left: 30px;
+}
+#main_Item>p{
+    font-size: 23px;
+    line-height: 1.5em;
+    color:#46618a;
+    margin-bottom:50px ;
+}
+.card_Section h1{
+    font-size: 68px;
+    color: #268fd0;
+    margin-bottom:50px ;
+}
+.diets_Data{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 65px;
+    width: 100%;
+}
+
+                                                        /* Each card  */
+.diets_Data>div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+    height: 580px;
+    margin-bottom: 50px;
+}
+.diets_Data>div img{
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px;
+    width: 100%;
+    margin-bottom: 18px;
+}
+.diets_Data>div h2{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color:#46618a;
+}
+.diets_Data>div h2:hover{
+    text-decoration:underline ;
+    cursor: pointer;
+}
+.diets_Data>div p{
+    margin-left: 30px;
+    font-size: 21px;
+    color:#46618a;
+}
+.diets_Data>div p, .diets_Data>div img:hover{
+    cursor: pointer;
+}
+
+                                                /* Button after card   */
+.Diet_btn{
+    height: 60px;
+    width: fit-content;
+    padding: 10px;
+    border: 3px solid #3aa0e4;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-bottom: 45px;
+    font-size: 18px;
+    color: #268fd3;
+    background-color: white;
+}
+.Diet_btn:hover{
+    border: 3px solid #16547e;
+    cursor: pointer;
+}
+#Disclaimer_msg{
+    border: dotted rgb(88, 235, 88);
+    border-radius: 10px;
+    height: 120px;
+    display: flex;
+    padding: 15px 32px 20px 32px;
+    gap: 20px;
+}
+
+                                                        /* Disclaimer portion */
+#Disclaimer_msg{
+    margin: 20px;
+}
+span{
+    line-height: 2.0em;
+    color: #46618a;
+    font-size: 22px;
+
+}
+#dis{
+    font-size: 22px;
+    font-weight: 600;
+}
+.Last_img{
+width: 100%;
+height: 600px;
+background-color: #F3973B;
+border-radius: 0% 100% 48% 52% / 0% 0% 5% 6%;
+display: flex;
+clip-path: polygon(0 0, 18% 6%, 38% 9%, 61% 9%, 82% 6%, 100% 0, 100% 23%, 100% 55%, 100% 100%, 35% 100%, 0 100%, 0 48%);
+}
+.L_left{
+    width: 48%;
+    height: 100%;
+}
+.L_right{
+    width: 48%;
+    height: 100%;  
+}
+.L_left h1{
+    font-size: 70px;
+    color: #FFFFFF; 
+    margin-left: 20px;
+    margin-top: 160px
+
+}
+.L_left button{
+    width: 250px;
+    height: 90px;
+    border-radius: 40px;
+    color: #FFFFFF;
+    background-color: #0CBF53;
+    font-size: 30px;
+    font-weight: bold;
+    border:3px solid rgb(255, 123, 0);
+    box-shadow: 2.5px 2.5px 2.5px  gray;
+    margin-left: 25px;
+    margin-top: 25px;
+
+}
+.L_left button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    background-color:#19ca60 ;
+}
+.L_right img{
+    width: 100%;
+    margin-top: 150px;
+}
+
