@@ -2,7 +2,7 @@ let footer = () => {
     return `<div id="Foot">
     <div id="f_part1">
         <div id="f_part1_logo">
-            <a href=""><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-dark.svg" alt="Error"></a>
+            <a href="./index.html"><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-dark.svg" alt="Error"></a>
         </div>
         <div id="f_part1_playstore">
             <a href="https://apps.apple.com/us/app/calorie-counter-mynetdiary/id287529757"><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/app-store-badge.svg" alt="Error"></a>
@@ -29,40 +29,40 @@ let footer = () => {
     <div id="f_part2">
         <h3>APP FEATURES</h3>
         <ul>
-            <li>iPhone & iPad</li>
-            <li>Android app</li>
-            <li>Keto-diet</li>
-            <li>Low-Carb Diet</li>
-            <li>Premium Calorie Coutning</li>
-            <li>MyNetDiary vs MyFitnessPal</li>
+            <li><a href="./features1.html">iPhone & iPad</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.fourtechnologies.mynetdiary.ad&referrer=utm_source%3Dwebsite%26utm_campaign%3Dsticky_header">Android app</a></li>
+            <li><a href="./Diet.html">Keto-diet<a></li>
+            <li><a href="./Diet.html">Low-Carb Diet</a></li>
+            <li><a href="./library-page1.html">Premium Calorie Coutning</a></li>
+            <li><a href="./features3.html">MyNetDiary vs MyFitnessPal</a></li>
         </ul>
     </div>
     <div id="f_part3">
         <h3>WEIGHT LOSS SCIENCE</h3>
 
         <ul>
-            <li>Weight Loss Blog</li>
-            <li>Diet Library</li>
-            <li>Dietitian Team</li>
+            <li><a href="./library-page1.html">Weight Loss Blog</li>
+            <li><a href="./Diet.html">Diet Library</li>
+            <li><a href="./Diet.html">Dietitian Team</li>
         </ul>
     </div>
     <div id="f_part4">
         <h3>BUSINESS</h3>
         <ul>
-            <li>Gift cards & Group discounts</li>
-            <li>For trainers</li>
-            <li>For healthcare professionals</li>
-            <li>For families</li>
-            <li>Food database licensing</li>
+            <li><a href="./features2.html">Gift cards & Group discounts</a></li>
+            <li><a href="./features2.html">For trainers</a></li>
+            <li><a href="./features2.html">For healthcare professionals</a></li>
+            <li><a href="./features2.html">For families</a></li>
+            <li><a href="./features2.html">Food database licensing</a></li>
         </ul>
     </div>
     <div id="f_part5">
         <h3>COMPANY</h3>
         <ul>
-            <li>About MyNetDiary</li>
-            <li>In the News</li>
-            <li>Press Releases</li>
-            <li>Press Kit</li>
+            <li><a href="./features2.html">About MyNetDiary</a></li>
+            <li><a href="./features2.html">In the News</a></li>
+            <li><a href="./features2.html">Press Releases</a></li>
+            <li><a href="./features2.html">Press Kit</a></li>
         </ul>
     </div>
     </div>

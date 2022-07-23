@@ -7,7 +7,7 @@
     width: 60%;
     max-width: 100%;
     height: 650px;
-    background-color: green;
+    background-color: #079b41;
     position: relative;
     overflow: hidden;
     border-radius: 0px 0px 50% 50%/0px 0px 5% 50%;
@@ -17,7 +17,7 @@
 #first {
     display: flex;
     position: absolute;
-    top: 15%;
+    top: 20%;
     color: white;
     font-size: 40px;
     justify-content: space-evenly;
@@ -25,10 +25,12 @@
 
 #one {
     width: 65%;
+    
 }
 
 #one img {
     width: 100%;
+    height: 90%;
 }
 
 #two {
@@ -43,11 +45,11 @@
 #item {
     color: #fcea7f;
     font-size: 30px;
-    margin-top: -15px;
+    /* margin-top: -15px; */
 }
 
 #rating {
-    margin-top: -15px;
+    /* margin-top: -15px; */
     text-align: start;
 }
 
@@ -103,6 +105,11 @@ h1 {
     font-weight: bold;
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#IPHONE_P{
+    margin-bottom: 20px;
 }
 
 #easy {
@@ -121,7 +128,7 @@ h1 {
     font-size: 25px;
     line-height: 30px;
     position: absolute;
-    top: 230%;
+    top: 200%;
     right: 40%;
     z-index: -1;
 }
@@ -138,7 +145,7 @@ h1 {
 
 #iphone {
     position: absolute;
-    top: 155%;
+    top: 125%;
 }
 
 #gold {
@@ -151,7 +158,7 @@ h1 {
     font-size: 25px;
     line-height: 30px;
     position: absolute;
-    top: 160%;
+    top: 130%;
     opacity: 0.98;
 }
 
@@ -170,7 +177,7 @@ h1 {
     font-size: 25px;
     line-height: 30px;
     position: absolute;
-    top: 145%;
+    top: 120%;
     right: 3%;
     opacity: 0.98;
 }
@@ -220,7 +227,7 @@ h1 {
 .inside_award p {
     color: #6f809b;
     font-size: 27px;
-    margin-top: -38px;
+    /* margin-top: -38px; */
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -724,19 +731,22 @@ h5{
  .font{
     font-size: 28px;
     padding-left: 60px;
+    padding-top: 20px;
 
  }
  .font+p{
     font-size: 22px;
-    margin-top: -40px;
+    /* margin-top: -40px; */
     padding-left: 60px;
     padding-right: 60px;
+    margin-top: 20px;
+    padding-bottom: 20px;
  }
  #g{
     position: absolute;
-    width: 150px;
+    width: 110px;
     top: 15%;
-    left: 8%;
+    left: 7%;
  }
  #b{
     width: 32%;
@@ -750,9 +760,9 @@ h5{
  }
  #h{
     position: absolute;
-    width: 150px;
+    width: 110px;
     top: 28%;
-    right: 34%;
+    right: 38%;
     z-index: 3;
  }
  #c{
@@ -766,9 +776,9 @@ h5{
  }
  #i{
     position: absolute;
-    width: 150px;
+    width: 110px;
     top: 55%;
-    left: 13%;
+    left: 12%;
     z-index: 3;
  }
  #d{
@@ -782,9 +792,9 @@ h5{
  }
  #j{
     position: absolute;
-    width: 150px;
+    width: 110px;
     top: 85%;
-    right: 42%;
+    right: 46%;
     z-index: 3;
  }
  #e{
@@ -798,28 +808,28 @@ h5{
  }
  #k{
     position: absolute;
-    width: 150px;
+    width: 110px;
     top: 102%;
-    left: 8%;
+    left: 7%;
  }
  #f{
     width: 38%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: white;
     position: absolute;
-    top: 142%;
+    top: 138%;
     left: 27%;
     border-radius: 20px;
  }
  #l{
     position: absolute;
-    width: 150px;
-    top: 137%;
-    left: 25%;
+    width: 110px;
+    top: 135%;
+    left: 24%;
     z-index: 3;
  }
  #review1{
     width: 100%;
-    height: 1800px;
+    height: 600px;
     background-color: #f5f1ee;
  }

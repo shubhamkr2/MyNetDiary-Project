@@ -3,7 +3,7 @@ let header_nav = () => {
     <div id="h_logo">
         <div id="logo_calender">
             <div id="c_logo">
-                <a href=""><img src="../Header/logo2.PNG" alt="Error"></a>
+                <a href=""><img src="./logo2.PNG" alt="Error"></a>
             </div>
             <div id="h_calender">
                 <a href=""><img src="https://www.mynetdiary.com/img/icon/date_range.png" alt="Error"></a>
