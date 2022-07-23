@@ -1,4 +1,141 @@
-<<<<<<< HEAD:Home Page/index.css
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropbtn{
+      color: #FFFFFF;
+      padding: 25px;
+      font-size: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFFFFF;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 18px;
+    color: rgb(91,115,151);
+    border-radius: 3px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:rgb(255,142,62); color: #FFFFFF; border-radius: 2px;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {
+      text-decoration: none;
+      color: rgb(255,172,69);
+      font-weight: 500;
+      background-color:rgb(255,255,255);
+      width: 120px;
+  
+  
+      
+      height: 15px;
+      border-radius: 3px;
+      }
+      .second .prm:hover,.second .prm1:hover,.second .prm2:hover{
+          transform: scale(1.02);
+  
+      }
+.ber{
+       margin-top: -360px;
+
+}
+#container{
+    height: 1600px;
+    background: linear-gradient(to top, white 47%,#079B41 20% );
+    display: flex; 
+
+    width: 100%;
+        align-items: center; 
+}
+.container__text{
+
+        font-family: 'Roboto', sans-serif;
+        margin-left: 80px;
+}
+#plate>img{
+    /* border: 1px solid red; */
+    margin-left: -600px;
+    margin-top: -500px;
+    
+}
+    .container__text{
+        /* border: 1px solid red; */
+        
+    }
+    .container__text >h1{
+        font-size: 85px;
+        margin-top: 100px;
+        width: 150%;
+        margin-left: -20px;
+        color: white;
+    }
+    .container__text>p{
+        font-size: 35px;
+        margin-top: 50px;
+        width: 140%;
+        color: rgb(242, 234, 111);
+        margin-left: -20px;
+    }
+    .container__phone{
+       margin-top: -500px;
+        width: 35%;
+        height: 950px;
+        margin-left: -80px;
+    }
+    .container__watch{
+        height: 600px;
+        margin-top: 200px;
+        margin-left: 00px;
+    }
+    .container__icons{
+        display: flex;
+        margin-top: 60px;
+        
+
+       
+    }
+    .container__icons>img{
+        height: 150px;
+        /* border: 1px solid red; */
+    }
+    .berry{
+        margin-top: -100px;
+        margin-left: -50px;
+        width: 60px;
+    }
+    .apple{
+        color:#46618A;
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+    }
+    .android{
+        color:#46618A;
+        display: flex;
+        align-items: center;
+    }
+    .stars{
+        display: flex;
+        margin-left: 0px;
+    }
+    .container__rating{
+        margin-top: 200px;
+        margin-bottom: 50px;
+        width: 150%;
+        font-size: 20px;
+    }
 #header{
     height: 800px;
     display: flex;
@@ -49,20 +186,20 @@
 #plate{
     position: relative;
    margin-top: -100px;
-   /* margin-left:150px ; */
+   margin-left:150px ;
    
 
 }
 #watch{
     margin-top: -100px;
-    margin-left: -170px;
+    
     width: 5%;
 
 }
 
 
 .womenhealth{
-    margin-top: 240px;
+    margin-top: -420px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
