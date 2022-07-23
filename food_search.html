@@ -1,168 +1,198 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./Footer.css">
     <STYLE>
-        body{
+        body {
             background: whitesmoke;
         }
-        #main{
+
+        #main {
             display: flex;
-            
+            margin-top: 110px;
         }
-        #sidebar{
-           display: grid;
-           gap: 15px;
-           /* border: 1px solid green; */
-           background: whitesmoke;
+
+        #sidebar {
+            display: grid;
+            gap: 15px;
+            /* border: 1px solid green; */
+            background: whitesmoke;
             /* width: 180px; */
             margin-top: 10px;
             height: 67px;
             padding: 10px;
         }
-        #sidebar a{
+
+        #sidebar a {
             text-decoration: none;
             font-family: 'Roboto', sans-serif;
             color: rgb(5, 115, 174);
             font-weight: bold;
-            
+
         }
-        #sidebar a:hover{
+
+        #sidebar a:hover {
             background: rgb(221, 214, 214);
             padding: 6px;
-            
+
             border-radius: 4px;
         }
-        #main_body{
+
+        #main_body {
             /* border: 1px solid red; */
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             border-radius: 6px;
             width: 450px;
-            
-            height: 140px;
+
+            height: 180px;
             margin-left: 40px;
             margin-top: 10px;
             margin-right: 40px;
             padding: 30px;
             background: rgb(255, 249, 249);
         }
-        p{  
+
+        p {
             font-family: 'Roboto', sans-serif;
             font-size: 12px;
             color: rgb(114, 112, 112);
-          
+
         }
-        #inputs1{
+
+        #inputs1 {
             width: 400px;
             padding: 10px;
             margin-top: 10px;
             border: 2px solid green;
             border-radius: 3px;
             padding-left: 20px;
-            font-style:italic;
-            font-weight:40px
+            font-style: italic;
+            font-weight: 40px
         }
-       
-        #image1 img{
+
+        #image1 img {
             margin-top: 50px;
             width: 300px;
             margin-left: 300px;
         }
-        #food p{
+
+        #food p {
             text-align: center;
             font-size: 20px;
-            
+
         }
-        #food1 p{
-           margin-left: 270px;
+
+        #food1 p {
+            margin-left: 270px;
             width: 230px;
             padding: 5px;
             margin-top: -14px;
             /* border: 1px solid red; */
         }
-        #products{
+
+        #products {
             display: flex;
             gap: 5px;
         }
-        #products a{
+
+        #products a {
             color: green;
             font-family: 'Roboto', sans-serif;
             font-size: 13px;
 
         }
-        #products div{
+
+        #products div {
             color: rgb(114, 112, 112);
         }
 
-        #container{
+        #container {
             display: grid;
             gap: 10px;
-            grid-template-columns: repeat(3,1fr);
-           margin-left:230px;
-           margin-top:20px
+            grid-template-columns: repeat(3, 1fr);
+            margin-left: 230px;
+            margin-top: 20px
         }
-        .div{
+
+        .div {
             display: grid;
             box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-            gap:10px            
-
+            gap: 10px
         }
-        .image{
+
+        .image {
             width: 130px;
             height: 110px;
             border-radius: 5px;
-            margin-left:18px;
-            margin-top:20px;
-            
+            margin-left: 18px;
+            margin-top: 20px;
+
         }
-        .heading{
-            font-size:10px;
-            margin-left:18px;
+
+        .heading {
+            font-size: 10px;
+            margin-left: 18px;
             /* border:1px solid red; */
-            width:130px;
-            padding:4px;
-           
+            width: 130px;
+            padding: 4px;
+
             /* background:red */
         }
     </STYLE>
-   
+
 </head>
+
 <body>
-    <div id="main">
-  <div id="sidebar">
-    <div><a href="#">Food Search</a></div>
-     <div><a href="#">Database Licensing & API</a></div>
-</div>
-  <div id="main_body">
-    <p>The most complete, accurate and
-         up-to-date nutrition database
-          in the English-speaking 
-          world. There are total
-           1,215,000 foods in the catalog. We add and verify about 900 foods every day. Type food or vendor 
-        name to see instant results.</p>
-        <div id="products"> <div>E.g. <a href="#">Starbuks,</a></div>
-         <div><a href="#">McDonald's,</a></div>
-         <div><a href="#">apple</a></div>
-         <div>or <a href="#">whole milk</a></div>
-        </div>
-     <input id="inputs1" type="text" placeholder="Enter Food,brand or restaurant">
+    <div id="navbar">
+
     </div>
-   
-</div>
-<div id="container"></div>
-<div id="image1"><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/food_search_empty-image_@2x.png" alt=""></div>
-   <div id="food"><p>Food Analysis</p></div>   
-   <div id="food1"><p>Find and analyze food you eat, 
-    get %Daily Value, 
-    macronutrients and micronutrients.</p></div>
+    <div id="main">
+        <div id="sidebar">
+            <div><a href="#">Food Search</a></div>
+            <div><a href="#">Database Licensing & API</a></div>
+        </div>
+        <div id="main_body">
+            <p>The most complete, accurate and
+                up-to-date nutrition database
+                in the English-speaking
+                world. There are total
+                1,215,000 foods in the catalog. We add and verify about 900 foods every day. Type food or vendor
+                name to see instant results.</p>
+            <div id="products">
+                <div>E.g. <a href="#">Starbuks,</a></div>
+                <div><a href="#">McDonald's,</a></div>
+                <div><a href="#">apple</a></div>
+                <div>or <a href="#">whole milk</a></div>
+            </div>
+            <input id="inputs1" type="text" placeholder="Enter Food,brand or restaurant">
+        </div>
+
+    </div>
+    <div id="container"></div>
+    <div id="image1"><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/food_search_empty-image_@2x.png"
+            alt=""></div>
+    <div id="food">
+        <p>Food Analysis</p>
+    </div>
+    <div id="food1">
+        <p>Find and analyze food you eat,
+            get %Daily Value,
+            macronutrients and micronutrients.</p>
+    </div>
+    <div id="footer">
+
+    </div>
 
 </body>
+
 </html>
 
- <script src="food.js" type="module"></script>
- <script type="module" src="fetch.js"></script>
+<script src="food.js" type="module"></script>
+<script type="module" src="fetch.js"></script>

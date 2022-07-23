@@ -1,20 +1,20 @@
 let navbar = () => {
     return `<div id="NavBar" class="nav">
-    <a id="navbarLogo" href=""><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-dark.svg"
+    <a id="navbarLogo" href="./index.html"><img src="https://s3.amazonaws.com/img.mynetdiary.com/images/logo-dark.svg"
             alt="Error"></a>
     <div id="nav_container">
         <div id="nav_option">
             <div class="option">
-                <a class="nav_btn" id="feature" href="">Features</a>
+                <a class="nav_btn" id="feature" href="./features1.html">Features</a>
                 <div class="dropdown_option">
-                    <a href="#">iPhone & iPad app</a>
-                    <a href="#">Android app</a>
-                    <a href="#">User Reviews</a>
-                    <a href="#">MyNetDiary vs MyFitnessPal</a>
+                    <a href="./features1.html">iPhone & iPad app</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.fourtechnologies.mynetdiary.ad&referrer=utm_source%3Dwebsite%26utm_campaign%3Dsticky_header">Android app</a>
+                    <a href="./features2.html">User Reviews</a>
+                    <a href="./features3.html">MyNetDiary vs MyFitnessPal</a>
                 </div>
             </div>
             <div class="option">
-                <a class="nav_btn" id="diet" href="">Diets</a>
+                <a class="nav_btn" id="diet" href="./Diet.html">Diets</a>
                 <div class="dropdown_option">
                     <a href="#">Calorie Counting</a>
                     <a href="#">Low-Carb</a>
@@ -27,17 +27,17 @@ let navbar = () => {
                 </div>
             </div>
             <div class="option">
-                <a class="nav_btn" id="libr" href="">Library</a>
+                <a class="nav_btn" id="libr" href="./library-page1.html">Library</a>
                 <div class="dropdown_option">
-                    <a href="#">Weight Loss Blog</a>
-                    <a href="#">Diet Library</a>
-                    <a href="#">Dietitian team</a>
+                    <a href="./library-page1.html">Weight Loss Blog</a>
+                    <a href="./Diet.html">Diet Library</a>
+                    <a href="./library-page1.html">Dietitian team</a>
                 </div>
             </div>
             <div class="option">
-                <a class="nav_btn" id="food" href="">Food</a>
+                <a class="nav_btn" id="food" href="./food_search.html">Food</a>
                 <div class="dropdown_option">
-                    <a href="#">Food Search</a>
+                    <a href="./food_search.html">Food Search</a>
                     <a href="#">DataBase Licensing & API </a>
                 </div>
             </div>
@@ -53,8 +53,8 @@ let navbar = () => {
             </div>
         </div>
         <div id="login_btn">
-            <a class="signup_btn" href="">SIGN UP</a>
-            <a class="signin_btn" href="">SIGN IN</a>
+            <a id="who" class="signup_btn" href="./signup.html">SIGN UP</a>
+            <a class="signin_btn" href="./login.html">SIGN IN</a>
         </div>
     </div>
 </div>` ;

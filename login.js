@@ -1,3 +1,5 @@
+
+
 let login = async () => {
   event.preventDefault()
   let user_data = {
@@ -25,6 +27,8 @@ let login = async () => {
 
 document.getElementById("submit").addEventListener("click", login);
 
+
+
 let getUserDetail = async (username, token) => {
     console.log("here");
   let res = await fetch(
@@ -41,7 +45,7 @@ let getUserDetail = async (username, token) => {
   let arr=[];
   arr.push(data.name)
   localStorage.setItem("who",JSON.stringify(arr))
-  window.location.href="index.html"
+  window.location.href="./plan.html"
   
 
 };

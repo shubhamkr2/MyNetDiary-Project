@@ -2,6 +2,16 @@
 
 //  https://api.unsplash.com/search/photos/?query=${value}&per_page=20&client_id=YOUR_ACCESS_KEY
 
+// For navbar 
+import {navbar, changeBg} from "./navbar.js";
+document.querySelector("#navbar").innerHTML=navbar();
+
+window.addEventListener("scroll", changeBg);
+
+// For footer 
+import {footer} from "./Footer.js";
+document.querySelector("#footer").innerHTML=footer();
+
 
   import { searchImages,append } from "./fetch.js";
 

@@ -5,6 +5,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: #3d5681;
+    font-weight: 600;
+}
 
 #Foot {
     border-bottom: 1px solid lightgray;
@@ -61,6 +66,9 @@
 
 #f_part2 {
     margin-left: 80px;
+}
+#f_part4 h3{
+    margin-bottom: 50px;
 }
 
 #f_li {
