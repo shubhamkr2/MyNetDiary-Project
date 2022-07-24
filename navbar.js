@@ -31,7 +31,7 @@ let navbar = () => {
                 <div class="dropdown_option">
                     <a href="./library-page1.html">Weight Loss Blog</a>
                     <a href="./Diet.html">Diet Library</a>
-                    <a href="./library-page1.html">Dietitian team</a>
+                    <a href="./library-page2.html">Dietitian team</a>
                 </div>
             </div>
             <div class="option">
