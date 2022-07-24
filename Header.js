@@ -3,7 +3,7 @@ let header_nav = () => {
     <div id="h_logo">
         <div id="logo_calender">
             <div id="c_logo">
-                <a href=""><img src="./logo2.PNG" alt="Error"></a>
+                <a href="./index.html"><img src="./logo2.PNG" alt="Error"></a>
             </div>
             <div id="h_calender">
                 <a href=""><img src="https://www.mynetdiary.com/img/icon/date_range.png" alt="Error"></a>
@@ -23,21 +23,21 @@ let header_nav = () => {
                 <div class="dropdownlList-content" id="mydropdownlList">
                     <a href="">Calendar</a>
                     <a href="">Blog</a>
-                    <a href="">Library</a>
+                    <a href="./library-page1.html">Library</a>
                     <a href="">Help</a>
-                    <a href="">Go To Homepage</a>
-                    <a href="">Sign Off</a>
+                    <a href="./index.html">Go To Homepage</a>
+                    <a href="./index.html">Sign Off</a>
                 </div>
             </div>
         </div>
     </div>
     <div id="h_nav">
-        <div><a href="">DASHBOARD</a></div>
-        <div><a href="">PLAN</a></div>
+        <div><a href="./analysis.html">DASHBOARD</a></div>
+        <div><a href="./plan.html">PLAN</a></div>
         <div><a href="">FOOD</a></div>
         <div><a href="">EXERCISE</a></div>
-        <div><a href="">ANALYSIS</a></div>
-        <div><a href="">COMMUNITY</a></div>
+        <div><a href="./analysis.html">ANALYSIS</a></div>
+        <div><a href="./analysis.html">COMMUNITY</a></div>
         <div><a href="">SETTINGS</a></div>
     </div>
 </div>`
