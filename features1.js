@@ -1,13 +1,3 @@
-// For navbar 
-import {navbar, changeBg} from "./navbar.js";
-document.querySelector("#navbar").innerHTML=navbar();
-
-window.addEventListener("scroll", changeBg);
-
-// For footer 
-import {footer} from "./Footer.js";
-document.querySelector("#footer").innerHTML=footer();
-
 let play=()=>{
     document.getElementById("video_image").style.display="none";
     document.getElementById("play_img").style.display="none";
@@ -113,7 +103,46 @@ function display1(){
     }
     img.src=imgArr[imgNum];
 
- })
+ });
+
+ 
+
+
+ function changeBg() {
+   let scrollValue = window.pageYOffset;
+   let navBar = document.querySelector("#NavBar");
+   let nav_opt1 = document.querySelector("#feature");
+   let nav_opt2 = document.querySelector("#diet");
+   let nav_opt3 = document.querySelector("#libr");
+   let nav_opt4 = document.querySelector("#food");
+   let nav_opt5 = document.querySelector("#buiss");
+   let signup = document.querySelector(".signup_btn");
+   let signin = document.querySelector(".signin_btn");
+
+   if (scrollValue < 35) {
+       navBar.classList.remove("f_Navbar");
+       nav_opt1.classList.remove("f_nav_Opt");
+       nav_opt2.classList.remove("f_nav_Opt");
+       nav_opt3.classList.remove("f_nav_Opt");
+       nav_opt4.classList.remove("f_nav_Opt");
+       nav_opt5.classList.remove("f_nav_Opt");
+       signup.classList.remove("f_signup");
+       signin.classList.remove("f_signin");
+   }
+
+   else {
+       navBar.classList.add("f_Navbar");
+       nav_opt1.classList.add("f_nav_Opt");
+       nav_opt2.classList.add("f_nav_Opt");
+       nav_opt3.classList.add("f_nav_Opt");
+       nav_opt4.classList.add("f_nav_Opt");
+       nav_opt5.classList.add("f_nav_Opt");
+       signup.classList.add("f_signup");
+       signin.classList.add("f_signin");
+   }
+
+   // console.log(scrollValue);
+}changeBg();
 
 
  
